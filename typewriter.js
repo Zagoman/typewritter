@@ -47,7 +47,7 @@ function loop() {
 
   //exit case
   if (i < str.length) {
-    setTimeout(loop, Math.floor(Math.random() * 300) + 30);
+    setTimeout(loop, Math.floor(Math.random() * 300) + 100);
   } else {
     i = 0;
     newStr.innerHTML += "<br />";
