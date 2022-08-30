@@ -30,7 +30,7 @@ function loop() {
   //   console.log(newStr.textContent);
   //exit case
   if (i < str.length) {
-    setTimeout(loop, 90);
+    setTimeout(loop, Math.floor(Math.random() * 200) + 30);
   } else {
     i = 0;
     setTimeout(() => {
